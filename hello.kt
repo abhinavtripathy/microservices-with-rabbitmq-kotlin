@@ -1,5 +1,5 @@
 fun main() {
-    println(arr())
+    println(loop())
 }
 
 fun loop() {
@@ -9,21 +9,5 @@ fun loop() {
         println("hello world")
 
     }
-
-    return "done"
-
-}
-
-fun arr(): int {
-
-    val arr = IntArray(5);
-
-    for(i in arr.indices) {
-
-        arr[i] = i;
-
-    }
-
-    return arr
 
 }
